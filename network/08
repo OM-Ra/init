@@ -1,0 +1,6 @@
+# enter comand:
+# nslookup slash16.org | grep Address: | grep -v '#' | awk '{print $2}'
+# whois 54.192.99.175 | grep Organization: | cut -c 17-
+
+Amazon Technologies Inc. (AT-88-Z)
+Amazon.com, Inc. (AMAZON-4)

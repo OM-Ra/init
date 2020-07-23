@@ -1,0 +1,6 @@
+#!/bin/sh
+
+systemctl status sshd | grep PID | awk '{print $3}'
+
+# or:
+# ps aux | grep sshd: | grep -v 'grep' | awk '{print $2}'

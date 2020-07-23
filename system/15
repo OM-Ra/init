@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# comand find PID:
+# pgrep -f [name_process]
+
+# $1 - PID process
+kill $1
+
+# or comand:
+# pkill [name_process]

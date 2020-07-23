@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ifconfig -a wlp7s0 | grep ether | awk '{print $2}'

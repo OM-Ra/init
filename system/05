@@ -1,0 +1,6 @@
+#!/bin/sh
+
+systemctl status sshd
+
+# or:
+# systemctl status ssh

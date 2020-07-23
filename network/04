@@ -1,0 +1,6 @@
+#!/bin/sh
+
+netstat -rn | grep "default" | awk '{print $2}'
+
+# or:
+# route | grep 'default' | awk '{print $8}'

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# $1 - new host name in parameter script
+hostname $1

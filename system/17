@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# ssh [name_host]@[IP]
+# get parametr:
+# $1 - name_host
+# $2 - IP
+
+ssh $1@$2

@@ -1,0 +1,7 @@
+# graphic session:
+# you enter: [user_name] and [password]
+
+# ssh session:
+# enter comand:
+# ssh [user_name]@[IP] <Enter>
+# and enter: password

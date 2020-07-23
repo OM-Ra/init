@@ -1,0 +1,5 @@
+# for Debian Linux
+# /etc/debian_version
+
+# for Manjaro Linux - roling relise
+# /etc/manjaro-release

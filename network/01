@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Manjaro
+ip l show | grep '>' | awk '{print $2}' | rev | cut -c 2- | rev
+
+
+# Mac OS
+# ifconfig -l

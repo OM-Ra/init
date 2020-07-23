@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Debian 
+apt list --installed
+
+# Manjaro
+# pamac list

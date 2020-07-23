@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# $1 - name user; write in parametr
+
+USERNAME=$1
+pgrep -u $USERNAME | while read DELPID; do sudo kill $DELPID; done
+sudo userdel $USERNAME

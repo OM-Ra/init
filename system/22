@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# $1 - write name user in parametr
+sudo adduser $1
